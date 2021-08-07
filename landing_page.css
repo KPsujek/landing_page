@@ -43,6 +43,7 @@ header h1, header h4{
     color: #666666;
     width: 30%;
     text-align: justify;
+    margin-bottom: 90px;
 }
 
 .picture{
@@ -52,4 +53,25 @@ header h1, header h4{
 
 h4{
     color: black;
+}
+
+.logotype{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logotype img{
+    height: 100px;
+    opacity: 0.5;
+}
+
+.line{
+    border-bottom: 1px #666464 solid;
+}
+
+.quote{
+    text-align: center;
+    color: black;
+    margin-top: 90px;
+    font-size: 25px;
 }
