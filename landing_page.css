@@ -1,16 +1,17 @@
 body{
-    background-color: pink;
+    background-color: white;
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+    margin: 0;
 }
 
 #logo{
-    font-size: 45px;
-    font-weight: 500;
-    font-style: italic;
+    font-size: 35px;
+    font-weight: 400;
     margin-bottom: 50px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
 #logo img{
@@ -19,31 +20,41 @@ body{
 
 header{
     text-align: center;
+    background-color: #008060;
+    color: #ffffff;
 }
 
-header h1, header h4{
+header h1, header h2{
     margin: 10px 0;
+}
+
+header h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+header h2{
+    font-size: 25px;
+    font-weight: 300;
 }
 
 #photo{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .box_container{
-    padding: 3px;
     display: flex;
-    padding: 0 40px;
+    padding: 40px 200px;
     justify-content: space-between;
-    color: black;
 }
 
 .box_container .textbox{
     color: #666666;
     width: 30%;
     text-align: justify;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 .picture{
@@ -51,8 +62,9 @@ header h1, header h4{
     justify-content: flex-start;
 }
 
-h4{
-    color: black;
+.logotype_container{
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logotype{
@@ -74,4 +86,67 @@ h4{
     color: black;
     margin-top: 90px;
     font-size: 25px;
+}
+
+.button_section{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#email{
+    background-color: white;
+    font-size: 25px;
+    color: #666666;
+    padding: 15px;
+    border-style: solid;
+    border-color: #666666;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+.first_button{
+    background-color: #033629;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #008060;
+    border-radius: 7px;
+}
+
+.first_button:hover{
+    background-color: #021812;
+}
+
+.second_button{
+    background-color: #008060;
+    font-size: 25px;;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #008060;
+    border-radius: 7px;
+}
+
+.second_button:hover{
+    background-color: #05a17a;
+}
+
+footer{
+    font-size: 15px;
+    color: #008060;
+    cursor: pointer;
+    text-align: right;
+    font-size: 15px;
+    margin-right: 150px;
+    padding-bottom: 30px;
+}
+
+.footer_link{
+    text-decoration: none;
+    color: #008060;
+    margin-left: 20px;
 }
